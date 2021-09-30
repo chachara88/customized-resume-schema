@@ -1,4 +1,8 @@
-# JSON Resume Schema
+# Customized JSON Resume Schema
+
+🖼️ This is a slightly tweaked version of the [JSON Resume Schema](https://github.com/jsonresume/resume-schema). That project is open source and it takes years and a lot of deliberation for schema changes to be accepted (5 years for v1). Therefore, I'm customizing the schema to fit my personal needs for my [resume](https://github.com/anthonyjdella/my-resume).
+
+---
 
 [![GitHub Releases](https://badgen.net/github/tag/jsonresume/resume-schema)](https://github.com/jsonresume/resume-schema/releases)
 [![NPM Release](https://badgen.net/npm/v/resume-schema)](https://www.npmjs.com/package/resume-schema)
