@@ -5,7 +5,7 @@
     "iso8601": {
       "type": "string",
       "description": "e.g. 2014-06-29",
-      "pattern": "^([1-2][0-9]{3}-[0-1][0-9]-[0-3][0-9]|[1-2][0-9]{3}-[0-1][0-9]|[1-2][0-9]{3})$"
+      "pattern": "^([1-2][0-9]{3}-[0-1][0-9]-[0-3][0-9]|[1-2][0-9]{3}-[0-1][0-9]|[1-2][0-9]{3}|present|current)$"
     }
   },
   "properties": {
@@ -142,6 +142,15 @@
             "items": {
               "type": "string",
               "description": "e.g. Increased profits by 20% from 2011-2012 through viral advertising"
+            }
+          },
+          "skills": {
+            "type": "array",
+            "description": "Specify skills used at the position",
+            "additionalItems": false,
+            "items": {
+              "type": "string",
+              "description": "e.g. Java, Python, JS, C#, etc"
             }
           }
         }
@@ -317,6 +326,30 @@
           "summary": {
             "type": "string",
             "description": "Short summary of publication. e.g. Discussion of the World Wide Web, HTTP, HTML."
+          }
+        }
+      }
+    },
+    "leadership": {
+      "type": "array",
+      "description": "List leadership positions",
+      "additionalItems": false,
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "e.g. Technology Chairman, Treasurer"
+          },
+          "organization": {
+            "type": "string",
+            "description": "e.g. Alpha Kappa Psi, UX Club"
+          },
+          "date": {
+            "type": "string",
+            "description": "2015",
+            "format": "date"
           }
         }
       }

@@ -2,5 +2,7 @@
   "yearMonthDay": "2013-12-02",
   "yearMonth": "2013-12-01",
   "year": "2013-12-01",
-  "invalid": "2013-12-021"
+  "invalid": "2013-12-021",
+  "present": "present",
+  "current": "current"
 }

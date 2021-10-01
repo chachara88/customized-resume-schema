@@ -176,5 +176,37 @@
         ]
       }
     ]
+  },
+  "skillsValid": {
+    "work": [
+      {
+        "skills": []
+      }
+    ]
+  },
+  "skillsInvalid": {
+    "work": [
+      {
+        "skills": null
+      }
+    ]
+  },
+  "skillsItemValid": {
+    "work": [
+      {
+        "skills": [
+          "Java, PHP, Python3"
+        ]
+      }
+    ]
+  },
+  "skillsItemInvalid": {
+    "work": [
+      {
+        "skills": [
+          null
+        ]
+      }
+    ]
   }
 }

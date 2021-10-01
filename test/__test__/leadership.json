@@ -1,0 +1,50 @@
+{
+  "leadershipValid": {
+    "leadership": []
+  },
+  "leadershipInvalid": {
+    "leadership": null
+  },
+  "nameValid": {
+    "leadership": [
+      {
+        "name": "Treasurer"
+      }
+    ]
+  },
+  "nameInvalid": {
+    "leadership": [
+      {
+        "name": null
+      }
+    ]
+  },
+  "organizationValid": {
+    "leadership": [
+      {
+        "organization": "UX Club"
+      }
+    ]
+  },
+  "organizationInvalid": {
+    "leadership": [
+      {
+        "organization": null
+      }
+    ]
+  },
+  "dateValid": {
+    "leadership": [
+      {
+        "date": "2016"
+      }
+    ]
+  },
+  "dateInvalid": {
+    "leadership": [
+      {
+        "date": null
+      }
+    ]
+  }
+}

@@ -209,3 +209,35 @@ test('work[].highlights[item] - invalid', (t) => {
   });
   t.end();
 });
+
+test('work[].skills - valid', (t) => {
+  validate(fixtures.skillsValid, (err, valid) => {
+    t.equal(err, null, 'err should be null');
+    t.true(valid, 'valid is true');
+  });
+  t.end();
+});
+
+test('work[].skills - invalid', (t) => {
+  validate(fixtures.skillsInvalid, (err, valid) => {
+    t.notEqual(err, null, 'err should contain an error');
+    t.false(valid, 'valid is false');
+  });
+  t.end();
+});
+
+test('work[].skills[item] - valid', (t) => {
+  validate(fixtures.skillsItemValid, (err, valid) => {
+    t.equal(err, null, 'err should be null');
+    t.true(valid, 'valid is true');
+  });
+  t.end();
+});
+
+test('work[].skills[item] - invalid', (t) => {
+  validate(fixtures.skillsItemInvalid, (err, valid) => {
+    t.notEqual(err, null, 'err should contain an error');
+    t.false(valid, 'valid is false');
+  });
+  t.end();
+});
