@@ -4,6 +4,9 @@
 
 ---
 
+<details>
+  <summary>Click to expand README.md of the source repository!</summary>
+
 [![GitHub Releases](https://badgen.net/github/tag/jsonresume/resume-schema)](https://github.com/jsonresume/resume-schema/releases)
 [![NPM Release](https://badgen.net/npm/v/resume-schema)](https://www.npmjs.com/package/resume-schema)
 [![Latest Status](https://github.com/jsonresume/resume-schema/workflows/Latest/badge.svg)](https://github.com/vanillawc/wc-template/actions)
@@ -81,3 +84,5 @@ Pull requests titles should be formatted as such
 
 - [HR-XML](https://schemas.liquid-technologies.com/HR-XML/2007-04-15/)
 - [Europass](http://europass.cedefop.europa.eu/about-europass)
+  
+</details>
