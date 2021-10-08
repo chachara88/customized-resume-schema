@@ -121,9 +121,17 @@
             "description": "e.g. Software Engineer"
           },
           "url": {
-            "type": "string",
-            "description": "e.g. http://facebook.example.com",
-            "format": "uri"
+            "anyOf": [
+              {
+                "type": "string",
+                "description": "e.g. http://facebook.example.com",
+                "format": "uri"
+              },
+              {
+                "type": "string",
+                "maxLength": 0
+              }
+            ]
           },
           "startDate": {
             "$ref": "#/definitions/iso8601"
@@ -483,9 +491,16 @@
             "$ref": "#/definitions/iso8601"
           },
           "url": {
-            "type": ["string", "null"],
-            "format": "uri",
-            "description": "e.g. http://www.computer.org/csdl/mags/co/1996/10/rx069-abs.html"
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "uri",
+                  "description": "e.g. http://www.computer.org/csdl/mags/co/1996/10/rx069-abs.html"
+                },
+                {
+                  "type": "null"
+                }
+              ]
           },
           "roles": {
             "type": "array",
