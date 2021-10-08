@@ -1,6 +1,6 @@
 {
   "name": "anthonyjdella-resume-schema",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Customized JSON Resume Schema for anthonyjdella",
   "main": "validator.js",
   "scripts": {
