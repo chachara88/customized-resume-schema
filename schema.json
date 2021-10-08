@@ -483,7 +483,7 @@
             "$ref": "#/definitions/iso8601"
           },
           "url": {
-            "type": "string",
+            "type": ["string", "null"],
             "format": "uri",
             "description": "e.g. http://www.computer.org/csdl/mags/co/1996/10/rx069-abs.html"
           },
