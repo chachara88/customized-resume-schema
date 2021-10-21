@@ -2,6 +2,11 @@
 
 🖼️ This is a slightly tweaked version of the [JSON Resume Schema](https://github.com/jsonresume/resume-schema). That project is open source and it takes years and a lot of deliberation for schema changes to be accepted (5 years for v1). Therefore, I'm customizing the schema to fit my personal needs for my [resume](https://github.com/anthonyjdella/my-resume).
 
+The main things that have been modified:
+1. Add leadership section
+2. Validation for present or current dates, as well as an empty string or null
+3. Allows URLs to be null or empty
+
 ---
 
 <details>
