@@ -6,6 +6,23 @@ The main things that have been modified:
 1. Add leadership section
 2. Validation for present or current dates, as well as an empty string or null
 3. Allows URLs to be null or empty
+4. Speaking section for public speaking engagements
+
+## How to Add/Modify Schema
+
+1. Make changes to `schema.json`. Look at "speaking" or "leadership" for examples.
+2. Edit the `sample.resume.json` to match the new `schema.json`
+3. In `test/__test__` add a new file for the object you created.
+4. In `test/` create a `.spec.js` that tests the new schema.
+5. Run tests to see if everything worked. `npm run test`, `npm run validate`, `npm run test-units`
+6. Edit `package.json` version and deploy to npm with `npm publish`
+7. Go to npmjs and see if the package was updated.
+8. Commit and push changes from this repo into GitHub.
+9. Go to another project `https://github.com/anthonyjdella/customized-registry-functions` and deploy to Firebase. Currently, the GitHub action isn't working for some reason (figure it out later).
+10. In that project, `npm install` in the root directory. Then cd to `functions` and `npm install` and `npm update`. You need to update so it downloads the new version of the resume schema.
+11. From the root directory, `firebase deploy` to deploy the updated project to Firebase.
+12. Update your Resume gist with the fields to match the new schema.
+13. Check your resume works.
 
 ---
 
