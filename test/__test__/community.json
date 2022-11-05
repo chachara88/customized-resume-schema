@@ -1,0 +1,212 @@
+{
+  "communityValid": {
+    "community": []
+  },
+  "communityInvalid": {
+    "community": null
+  },
+  "nameValid": {
+    "community": [
+      {
+        "name": "Pied Piper"
+      }
+    ]
+  },
+  "nameInvalid": {
+    "community": [
+      {
+        "name": null
+      }
+    ]
+  },
+  "locationValid": {
+    "community": [
+      {
+        "location": "Palo Alto, CA"
+      }
+    ]
+  },
+  "locationInvalid": {
+    "community": [
+      {
+        "location": null
+      }
+    ]
+  },
+  "descriptionValid": {
+    "community": [
+      {
+        "description": "Awesome compression company"
+      }
+    ]
+  },
+  "descriptionInvalid": {
+    "community": [
+      {
+        "description": null
+      }
+    ]
+  },
+  "positionValid": {
+    "community": [
+      {
+        "position": "CEO/President"
+      }
+    ]
+  },
+  "positionInvalid": {
+    "community": [
+      {
+        "position": null
+      }
+    ]
+  },
+  "urlValid": {
+    "community": [
+      {
+        "url": "http://piedpiper.example.com"
+      }
+    ]
+  },
+  "urlInvalid": {
+    "community": [
+      {
+        "url": null
+      }
+    ]
+  },
+  "startDateValid": {
+    "community": [
+      {
+        "startDate": "2013-12-01"
+      }
+    ]
+  },
+  "startDateValid2": {
+    "community": [
+      {
+        "startDate": "2013-12"
+      }
+    ]
+  },
+  "startDateValid3": {
+    "community": [
+      {
+        "startDate": "2013"
+      }
+    ]
+  },
+  "startDateInvalid": {
+    "community": [
+      {
+        "startDate": null
+      }
+    ]
+  },
+  "endDateValid": {
+    "community": [
+      {
+        "endDate": "2014-12-01"
+      }
+    ]
+  },
+  "endDateValid2": {
+    "community": [
+      {
+        "endDate": "2014-12"
+      }
+    ]
+  },
+  "endDateValid3": {
+    "community": [
+      {
+        "endDate": "2014"
+      }
+    ]
+  },
+  "endDateInvalid": {
+    "community": [
+      {
+        "endDate": null
+      }
+    ]
+  },
+  "summaryValid": {
+    "community": [
+      {
+        "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression."
+      }
+    ]
+  },
+  "summaryInvalid": {
+    "community": [
+      {
+        "summary": null
+      }
+    ]
+  },
+  "highlightsValid": {
+    "community": [
+      {
+        "highlights": []
+      }
+    ]
+  },
+  "highlightsInvalid": {
+    "community": [
+      {
+        "highlights": null
+      }
+    ]
+  },
+  "highlightsItemValid": {
+    "community": [
+      {
+        "highlights": [
+          "Successfully won Techcrunch Disrupt"
+        ]
+      }
+    ]
+  },
+  "highlightsItemInvalid": {
+    "community": [
+      {
+        "highlights": [
+          null
+        ]
+      }
+    ]
+  },
+  "skillsValid": {
+    "community": [
+      {
+        "skills": []
+      }
+    ]
+  },
+  "skillsInvalid": {
+    "community": [
+      {
+        "skills": null
+      }
+    ]
+  },
+  "skillsItemValid": {
+    "community": [
+      {
+        "skills": [
+          "Java, PHP, Python3"
+        ]
+      }
+    ]
+  },
+  "skillsItemInvalid": {
+    "community": [
+      {
+        "skills": [
+          null
+        ]
+      }
+    ]
+  }
+}

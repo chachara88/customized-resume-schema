@@ -206,6 +206,73 @@
         }
       }
     },
+    "community": {
+      "type": "array",
+      "additionalItems": false,
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "e.g. Code and Coffee"
+          },
+          "location": {
+            "type": "string",
+            "description": "e.g. Seattle, WA"
+          },
+          "description": {
+            "type": "string",
+            "description": "e.g. Software engineering community for developers by developers"
+          },
+          "position": {
+            "type": "string",
+            "description": "e.g. Organizer"
+          },
+          "url": {
+            "anyOf": [
+              {
+                "type": "string",
+                "description": "e.g. https://www.meetup.com/seattle-code-and-coffee/",
+                "format": "uri"
+              },
+              {
+                "type": "string",
+                "maxLength": 0
+              }
+            ]
+          },
+          "startDate": {
+            "$ref": "#/definitions/iso8601"
+          },
+          "endDate": {
+            "$ref": "#/definitions/iso8601"
+          },
+          "summary": {
+            "type": "string",
+            "description": "Give an overview of your responsibilities at the company"
+          },
+          "highlights": {
+            "type": "array",
+            "description": "Specify multiple accomplishments",
+            "additionalItems": false,
+            "items": {
+              "type": "string",
+              "description": "e.g. Increased profits by 20% from 2011-2012 through viral advertising"
+            }
+          },
+          "skills": {
+            "type": "array",
+            "description": "Specify skills used at the position",
+            "additionalItems": false,
+            "items": {
+              "type": "string",
+              "description": "e.g. Java, Python, JS, C#, etc"
+            }
+          }
+        }
+      }
+    },
     "speaking": {
       "type": "array",
       "additionalItems": false,
