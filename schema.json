@@ -206,6 +206,36 @@
         }
       }
     },
+    "speaking": {
+      "type": "array",
+      "additionalItems": false,
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {
+          "event": {
+            "type": "string",
+            "description": "e.g. KubeCon 2022"
+          },
+          "location": {
+            "type": "string",
+            "description": "e.g. New York City, NY"
+          },
+          "topic": {
+            "type": "string",
+            "description": "e.g. Gaining Trust in APIs and What to Look For"
+          },
+          "reference": {
+            "type": "string",
+            "description": "Link to slides or video - e.g. https://anthonydellavecchia.com/blog/gaining_trust_in_apis/ or https://www.youtube.com/watch?v=elgcCqnNeEs",
+            "format": "uri"
+          },
+          "date": {
+            "$ref": "#/definitions/iso8601"
+          }
+        }
+      }
+    },
     "education": {
       "type": "array",
       "additionalItems": false,
@@ -491,16 +521,16 @@
             "$ref": "#/definitions/iso8601"
           },
           "url": {
-              "anyOf": [
-                {
-                  "type": "string",
-                  "format": "uri",
-                  "description": "e.g. http://www.computer.org/csdl/mags/co/1996/10/rx069-abs.html"
-                },
-                {
-                  "type": "null"
-                }
-              ]
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "uri",
+                "description": "e.g. http://www.computer.org/csdl/mags/co/1996/10/rx069-abs.html"
+              },
+              {
+                "type": "null"
+              }
+            ]
           },
           "roles": {
             "type": "array",
