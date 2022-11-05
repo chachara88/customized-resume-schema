@@ -303,6 +303,28 @@
         }
       }
     },
+    "writing": {
+      "type": "array",
+      "additionalItems": false,
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "e.g. How to Never Miss Out on a Job Opening"
+          },
+          "reference": {
+            "type": "string",
+            "description": "Link to blog - e.g. https://anthonydellavecchia.com/blog/how-to-never-miss-out-on-a-job-opening/",
+            "format": "uri"
+          },
+          "date": {
+            "$ref": "#/definitions/iso8601"
+          }
+        }
+      }
+    },
     "education": {
       "type": "array",
       "additionalItems": false,

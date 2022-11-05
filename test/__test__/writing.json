@@ -1,0 +1,64 @@
+{
+  "writingValid": {
+    "writing": []
+  },
+  "writingInvalid": {
+    "writing": null
+  },
+  "nameValid": {
+    "writing": [
+      {
+        "name": "KubeCon 2022"
+      }
+    ]
+  },
+  "nameInvalid": {
+    "writing": [
+      {
+        "name": null
+      }
+    ]
+  },
+  "referenceValid": {
+    "writing": [
+      {
+        "reference": "https://anthonydellavecchia.com/blog/gaining_trust_in_apis/"
+      }
+    ]
+  },
+  "referenceInValid": {
+    "writing": [
+      {
+        "reference": null
+      }
+    ]
+  },
+  "dateValid": {
+    "writing": [
+      {
+        "date": "2022-07-28"
+      }
+    ]
+  },
+  "dateValid2": {
+    "writing": [
+      {
+        "date": "2022-07"
+      }
+    ]
+  },
+  "dateValid3": {
+    "writing": [
+      {
+        "date": "2022"
+      }
+    ]
+  },
+  "dateInvalid": {
+    "writing": [
+      {
+        "date": null
+      }
+    ]
+  }
+}
