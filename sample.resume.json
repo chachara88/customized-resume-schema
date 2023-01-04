@@ -84,6 +84,24 @@
       "date": "2022-07-28"
     }
   ],
+  "conferences": [
+    {
+      "event": "KubeCon 2022",
+      "location": "New York City, NY",
+      "topic": "Gaining Trust in APIs and What to Look For",
+      "reference": "https://anthonydellavecchia.com/blog/gaining_trust_in_apis/",
+      "date": "2022-07-28"
+    }
+  ],
+  "workshops": [
+    {
+      "event": "KubeCon 2022",
+      "location": "New York City, NY",
+      "topic": "Gaining Trust in APIs and What to Look For",
+      "reference": "https://anthonydellavecchia.com/blog/gaining_trust_in_apis/",
+      "date": "2022-07-28"
+    }
+  ],
   "writing": [
     {
       "name": "How to Never Miss Out on a Job Opportunity",
