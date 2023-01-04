@@ -1,0 +1,92 @@
+{
+  "speakingValid": {
+    "speaking": []
+  },
+  "speakingInvalid": {
+    "speaking": null
+  },
+  "eventValid": {
+    "speaking": [
+      {
+        "event": "KubeCon 2022"
+      }
+    ]
+  },
+  "eventInvalid": {
+    "speaking": [
+      {
+        "event": null
+      }
+    ]
+  },
+  "locationValid": {
+    "speaking": [
+      {
+        "location": "New York City, NY"
+      }
+    ]
+  },
+  "locationInvalid": {
+    "speaking": [
+      {
+        "location": null
+      }
+    ]
+  },
+  "topicValid": {
+    "speaking": [
+      {
+        "topic": "Gaining Trust in APIs and What to Look For"
+      }
+    ]
+  },
+  "topicInvalid": {
+    "speaking": [
+      {
+        "topic": null
+      }
+    ]
+  },
+  "referenceValid": {
+    "speaking": [
+      {
+        "reference": "https://anthonydellavecchia.com/blog/gaining_trust_in_apis/"
+      }
+    ]
+  },
+  "referenceInValid": {
+    "speaking": [
+      {
+        "reference": null
+      }
+    ]
+  },
+  "dateValid": {
+    "speaking": [
+      {
+        "date": "2022-07-28"
+      }
+    ]
+  },
+  "dateValid2": {
+    "speaking": [
+      {
+        "date": "2022-07"
+      }
+    ]
+  },
+  "dateValid3": {
+    "speaking": [
+      {
+        "date": "2022"
+      }
+    ]
+  },
+  "dateInvalid": {
+    "speaking": [
+      {
+        "date": null
+      }
+    ]
+  }
+}
